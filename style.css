@@ -49,3 +49,23 @@ button {
 button:hover {
     background-color: #ccc;
 }
+
+@media(max-width: 700px){
+    .calculator{
+        width: 150px;
+        height: 250px;
+    }
+
+    #result {
+        height: 20px;
+        width: 141px;
+    }
+
+    .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 31px);
+    grid-template-rows: repeat(4,40px);
+    grid-gap: 10px;
+    }
+    
+}
