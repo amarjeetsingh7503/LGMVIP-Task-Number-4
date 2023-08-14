@@ -53,7 +53,7 @@ button:hover {
 @media(max-width: 700px){
     .calculator{
         width: 150px;
-        height: 250px;
+        height: 220px;
     }
 
     #result {
@@ -64,8 +64,11 @@ button:hover {
     .buttons {
     display: grid;
     grid-template-columns: repeat(4, 31px);
-    grid-template-rows: repeat(4,40px);
+    grid-template-rows: repeat(4,35px);
     grid-gap: 10px;
     }
-    
+
+    button{
+        font-size: 15px;
+    }
 }
