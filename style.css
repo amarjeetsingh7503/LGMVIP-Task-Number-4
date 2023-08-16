@@ -10,12 +10,16 @@ body {
 
 .calculator {
     width: 300px;
-    height: 360px;
+    height: 440px;
     background-color: black;
     padding: 20px;
+    padding-top: 0;
     border-radius: 5%;
     box-shadow: 0px 0px 5px #E04D01;
+    color: #ccc;
+    text-align: center;
 }
+
 
 #result {
     display: flex;
@@ -26,7 +30,6 @@ body {
     background-color: white;
     color: black;
     border: 1px solid #ccc;
-    border-radius: 10%;
 }
 
 .buttons {
@@ -50,7 +53,7 @@ button:hover {
     background-color: #ccc;
 }
 
-@media(max-width: 700px){
+@media(max-width: 500px){
     .calculator{
         width: 150px;
         height: 220px;
@@ -71,4 +74,5 @@ button:hover {
     button{
         font-size: 15px;
     }
+
 }
